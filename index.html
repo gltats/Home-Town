@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Verin</title>
+  </head>
+  <body>
+
+     <!-- Top bar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" title="Home">
+            <img src="/img/icon.png"alt="Escudo Verin" width="80" height="auto" ><a class="navbar-brand" href="#"> Verin</a></img>
+            
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#see">What to see?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carnival">Carnival</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tours">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#booking">Booking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+ <!-- About -->
+    <div class="container one">
+      <p>Verín is a town and a Spanish municipality located in the southeast of the province of Orense, 
+      in the autonomous community of Galicia, on the banks of the river Támega. It is known for its emblematic 
+      Entroido, for its mineral waters that were sponsors of the Spanish soccer team (Fontenova, Cabreiroá and Sousas), 
+      for the castle of Monterrey that presides over it, and for its national parador.</p>
+    </div>
+
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/castel.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/carnaval.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/frailes.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/balneary.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<!-- History -->
+<div class="container" id="history">
+<h1>History</h1>
+<p>
+The city of Verín arose from a Roman villa, whose inhabitants could come from the "castro de Baronceli", 
+located in the location currently occupied by the castle of Monterrey, built in the late Middle Ages.
+During the Middle Ages the village lost its dominion and Monterrey centralized the territory and the life 
+of the region around its counts and lords.</p>
+
+</p>Verín became during the Middle Ages an agricultural and peaceful town, 
+although it was often involved in the warlike conflicts of the successive rulers of Monterrey, as well as the 
+border disputes between Spain and Portugal. In 1506, Philip the Fair held a meeting in the town with Cardinal 
+Cisneros in exchange for his mediation for the partial surrender of the troops of John III The Pious, King of Portugal.</p>
+
+<p>During the War of Independence, the castle became the scene of the last of its warlike conflicts since the execution 
+of countless hostile troops by garrotte vile took place in this environment.</p>
+
+<p>In 2019 the city council and the University of Vigo made public that they had found 
+in the castro das Quintas del pozo do Demo remains that "coincided with those of a medieval 
+fortification that could not be other than the castle of Cabreira", a fortress of the tenth century in the valley of Monterrey destroyed in the fifteenth century.
+</p>
+</div>
+
+<!-- What to see? -->
+<div class="container" id="see">
+  <h1>What to see?</h1>
+  <p>There is plenty to see in Verín, Orense
+On the banks of the river Támega this town of great history preserves the largest fortified 
+complex in Galicia. One of its main attractions are its famous spas. It is surprising how much there is to see in Verín.</p>
+ 
+<p>The visit to its historic center and the interpretation center that allows you to understand its
+ important history can be done in one day. Several days can be spent enjoying the waters or receiving
+  treatments in the spas of Cabreiroá, Fontenova or Sousas.</p>
+
+  <p>Nature lovers can go up the OU 114 and spend a day in the beautiful natural park of Invernadeiro. 
+We advise you to call ahead as access is restricted to 30 people per day. If you are interested in 
+active tourism, there are several options.</p>
+</div>
+
+<!-- Carnaval -->
+<div class="container" id="carnival">
+<h1>Carnival</h1>
+<h2>Where does this festivity came from?</h2>
+<p>To know the Carnival of Verín as it is now, easily recognizable, we must go back to 1981, 
+  when the popular festival resurfaces and, from that moment, is growing every day more and 
+  more famous until today.</p>
+
+<p>During all these years, even centuries, there is a character in Verín 
+  that has never been absent, the cigarrón. It is assumed that this characterization comes 
+  from the sixteenth century, when it was imitated and mocked in the village of a tax collector 
+  especially unpopular among the Counts of Monterrei.</p> 
+
+<p>Today, it is customary in Verín to dress as the cigarróns, characterized by the painted mask 
+  made of wood with a face with a mustache, cheeks and eyebrows highlighted showing a wide smile. 
+  Among the clothing, the jacket, tie and white shirt stand out along with the chocas at the waist 
+  and the whip in the hand.</p> 
+
+
+  <h2>What happens now a days?</h2>
+  <p>The festival begins on the so-called "Domingo de Corredoiro", with the sound of fireworks, 
+  the charangas and the first concentration of cigarrones (masked men who run encouraging people to participate) 
+  in the morning. That same day in the afternoon-evening, the first masked dance and the first "fariñada" are held in the main square. 
+  However, the official beginning of the Carnival takes place on "Thursday of comadres", when the women leave the men at home and go out 
+  to dinner in disguise; and when midnight arrives, a crowd takes to the streets to welcome the Carnival procession and listen to the proclamation 
+  that gives way to the general fun. In this way, throughout the days of celebration, there will be flour battles, masked dances, parades of troupes 
+  and brass bands, contests, tastings of typical products, etc... The most intense day is Sunday, since the Great Parade of Floats, Troupes, Masks and 
+  Cigarrones takes place at noon.</p> 
+
+</div>
+
+<!-- Tours -->
+<div class="container" id="tours">
+<h1>Tours</h1>
+</div>
+<!-- Booking -->
+<div class="container" id="booking">
+<h1>Booking</h1>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
