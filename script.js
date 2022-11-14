@@ -17,6 +17,3 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
-
-//next? add booking you install with NPM , documentation > https://developers.timekit.io/docs/booking-widget-v2 , NPM https://www.npmjs.com/package/timekit-booking

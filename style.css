@@ -1,14 +1,43 @@
 * {box-sizing:border-box}
 
-.one{
-  margin-top: 10%;
+body
+{
+  background: linear-gradient(124deg, rgb(63, 4, 88) 0%, rgb(114, 11, 224) 51%, rgba(0,212,255,1) 100%);
+  font-family: "Lucida Console", "Courier New", monospace !important;
+}
+
+.icon
+{
+  font-size: 34px;
+}
+
+.neonTextTitle {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 0, 255),
+      0 0 82px rgb(255, 0, 255),
+      0 0 92px rgb(255, 0, 255),
+      0 0 102px rgb(255, 0, 255),
+      0 0 151px rgb(255, 0, 255);
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  color: rgb(5, 213, 255);
+  max-width: 600px;
   margin: auto;
-  background-color: #d3d2d2;
+  margin-top: 6%;
+  padding: 1%;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+  border-radius: 15px;
 }
 
 /* Hide the images by default */
@@ -16,44 +45,20 @@
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  background-color: rgba(88, 85, 85, 0.8);
-  cursor: pointer;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  margin: 10px 2px;
+  background-color: rgb(156, 237, 255);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #d3d2d2;
+  background-color: rgba(255, 0, 225, 0.8);
 }
 
 /* Fading animation */
@@ -65,4 +70,19 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.textcontainer
+{
+  color: rgb(5, 213, 255);
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 1%;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+  border-radius: 15px;
 }
