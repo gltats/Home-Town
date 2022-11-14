@@ -11,6 +11,41 @@ body
   font-size: 34px;
 }
 
+.neonLetter
+{
+  position: absolute;
+  left: 13%;
+  top: 20%;
+
+}
+
+.neonLetterRight
+{
+  position: absolute;
+  right: 13%;
+  top: 20%;
+}
+
+h3
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px !important;
+  text-align: center;
+  color: #fff;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(255, 0, 255),
+  0 0 82px rgb(255, 0, 255),
+  0 0 92px rgb(255, 0, 255),
+  0 0 102px rgb(255, 0, 255),
+  0 0 151px rgb(255, 0, 255);
+}
+
+
+
+
 .neonTextTitle {
   color: #fff;
   text-shadow:
@@ -43,6 +78,9 @@ body
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+.img{
+  border-radius: 15px;
 }
 
 /* The dots/bullets/indicators */
@@ -85,4 +123,83 @@ body
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe; 
   border-radius: 15px;
+}
+
+.cigarrons
+{
+  max-width: 350px;
+  border-radius: 15px 70px;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 2rem #00fff7,
+  inset 0 0 1.3rem #00fff7;
+  margin-bottom: 2%;
+
+}
+
+.carnaval{
+  border-radius: 15px;
+  max-width: 300px;
+  margin: 2%;
+  box-shadow: 0 0 .2rem #dca0f4,
+  0 0 .2rem #dca0f4,
+  0 0 2rem #00eeff,
+  0 0 0.8rem #00eeff,
+  
+  inset 0 0 0.5rem #00eeff;
+}
+
+.dates{
+  margin-top: 4%;
+}
+.poster
+{
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 2%;
+  box-shadow: 0 0 .2rem #ffffff,
+  0 0 .2rem #ffffff,
+  0 0 2rem #ffffff,
+  0 0 0.8rem #ffffff,
+
+  inset 0 0 1em #ffffff;
+}
+
+
+
+@media (max-width: 757px) 
+{ 
+  .neonLetter
+  {
+    display: none;
+  }
+  .neonLetterRight
+  {
+    display: none;
+  }
+  .slideshow-container
+  {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 1042px) 
+{ 
+  .neonLetter
+  {
+    left: 4%;
+  }
+  h3
+{
+  font-size: 40px !important;
+
+}
+.neonLetterRight
+{
+  display: none;
+}
+
+.slideshow-container
+  {
+    margin-top: 10%;
+  }
 }
