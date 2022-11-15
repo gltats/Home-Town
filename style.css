@@ -133,7 +133,24 @@ h3
   0 0 2rem #00fff7,
   inset 0 0 1.3rem #00fff7;
   margin-bottom: 2%;
+}
 
+.ruinas{
+  max-width: 250px;
+  border-radius: 15px 70px;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 2rem #00fff7,
+  inset 0 0 1.3rem #00fff7;
+  margin-bottom: 2%;
+}
+
+.imgInverse{
+  max-width: 350px;
+  border-radius: 70px 15px;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 2rem #00fff7,
+  inset 0 0 1.3rem #00fff7;
+  margin-bottom: 2%;
 }
 
 .carnaval{
@@ -180,6 +197,11 @@ h3
   {
     margin-top: 30%;
   }
+
+  .imgInverse
+{
+  display: none;
+}
 }
 
 @media (max-width: 1042px) 
@@ -201,5 +223,10 @@ h3
 .slideshow-container
   {
     margin-top: 10%;
+  }
+
+  .imgInverse
+  {
+    display: none;
   }
 }

@@ -17,3 +17,10 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+// for nav bar
+$(document).ready(function() {
+  $(document).on('click', '.nav-item a', function (e) {
+      $(this).parent().addClass('active').siblings().removeClass('active');
+  });
+});
