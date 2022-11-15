@@ -181,6 +181,34 @@ h3
   inset 0 0 1em #ffffff;
 }
 
+.footer
+{
+  color: rgb(255, 255, 255);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(0, 255, 51),
+      0 0 82px rgb(0, 255, 51),
+      0 0 92px rgb(0, 255, 51),
+      0 0 102px rgb(0, 255, 51),
+      0 0 151px rgb(0, 255, 51);
+}
+
+.underline-with-movement {
+  text-decoration: none;
+  background: 
+  linear-gradient(to right, rgb(253, 107, 217), rgb(222, 19, 171)),
+  linear-gradient(to right, rgb(255, 122, 222), rgb(255, 70, 209), rgb(203, 32, 255));
+background-size: 100% 0.1em, 0 0.1em;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+.underline-with-movement:hover,
+.underline-with-movement:focus{
+  background-size: 0 0.1em, 100% 0.1em;
+}
 
 
 @media (max-width: 757px) 
